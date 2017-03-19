@@ -1,0 +1,110 @@
+body {
+  background-color: black; }
+
+::selection {
+  background: black; }
+
+#main {
+  margin: 0 auto;
+  width: 100%; }
+  #main .container {
+    text-align: center;
+    margin: 0 auto;
+    width: 100%; }
+    #main .container .logo {
+      margin-top: 18rem;
+      width: 8rem; }
+    #main .container h2 {
+      color: white;
+      font-family: "Fakt Pro", "Helvetica Neue", sans-serif;
+      font-weight: 300;
+      font-size: 3.2rem;
+      line-height: 1.25em;
+      margin: 0 auto;
+      margin-top: 14rem;
+      width: 41rem;
+      -moz-animation: fadein 5;
+      /* Firefox */
+      -webkit-animation: fadein 5s;
+      /* Safari and Chrome */
+      -o-animation: fadein 5s;
+      /* Opera */ }
+  #main h6 {
+    color: #999;
+    font-family: "Fakt Pro", "Helvetica Neue", sans-serif;
+    font-size: .8rem;
+    font-weight: 300;
+    margin-top: 18rem;
+    margin-bottom: 5%; }
+
+fieldset {
+  width: px;
+  border: none;
+  margin-top: 20%;
+  padding: 0;
+  margin-bottom: 10%; }
+  fieldset input {
+    -webkit-appearance: none;
+    text-align: center;
+    background: #000;
+    color: white;
+    margin-top: 40px;
+    padding-top: 28px;
+    padding-bottom: 28px;
+    border-top: 1px solid #2B2B2B;
+    border-bottom: 1px solid #2B2B2B;
+    border-left: 1px solid #2B2B2B;
+    border-right: 1px solid #2B2B2B;
+    border-color: #2B2B2B;
+    font-size: 1.1rem;
+    width: 24rem; }
+    fieldset input:focus {
+      outline: 0;
+      font-size: 1.2rem; }
+  fieldset h5 {
+    color: #BBB;
+    font-family: "Fakt Pro", "Helvetica Neue", sans-serif;
+    font-weight: 300;
+    font-size: .9rem;
+    line-height: 1.8em;
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 24rem; }
+  fieldset .link {
+    border-bottom: 1.5px solid white;
+    color: white;
+    text-decoration: none; }
+
+@keyframes fadein {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-moz-keyframes fadein {
+  /* Firefox */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-webkit-keyframes fadein {
+  /* Safari and Chrome */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@-o-keyframes fadein {
+  /* Opera */
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+@media only screen and (min-width: 320px) and (max-width: 900px) {
+  h2 {
+    font-size: 1.8rem !important;
+    width: 22rem !important; }
+
+  input {
+    font-size: .8rem;
+    width: 20rem !important; } }
+
+/*# sourceMappingURL=output.css.map */
