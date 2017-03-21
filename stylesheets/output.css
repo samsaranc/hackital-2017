@@ -1,3 +1,7 @@
+@font-face {
+  font-family: 'FaktProNormal';
+  src: url("fonts/FaktProNormal.eot");
+  src: url("fonts/FaktProNormal.eot") format("embedded-opentype"), url("fonts/FaktProNormal.woff2") format("woff2"), url("fonts/FaktProNormal.woff") format("woff"), url("fonts/FaktProNormal.ttf") format("truetype"), url("fonts/FaktProNormal.svg#FaktProNormal") format("svg"); }
 body {
   background-color: black; }
 
@@ -16,8 +20,7 @@ body {
       width: 8rem; }
     #main .container h2 {
       color: white;
-      font-family: "Fakt Pro", "Helvetica Neue", sans-serif;
-      font-weight: 300;
+      font-family: 'FaktProNormal', "Helvetica Neue", sans-serif;
       font-size: 3.2rem;
       line-height: 1.25em;
       margin: 0 auto;
@@ -31,9 +34,8 @@ body {
       /* Opera */ }
   #main h6 {
     color: #999;
-    font-family: "Fakt Pro", "Helvetica Neue", sans-serif;
+    font-family: 'FaktProNormal', "Helvetica Neue", sans-serif;
     font-size: .8rem;
-    font-weight: 300;
     margin-top: 18rem;
     margin-bottom: 5%; }
 
@@ -63,8 +65,7 @@ fieldset {
       font-size: 1.2rem; }
   fieldset h5 {
     color: #BBB;
-    font-family: "Fakt Pro", "Helvetica Neue", sans-serif;
-    font-weight: 300;
+    font-family: 'FaktProNormal', "Helvetica Neue", sans-serif;
     font-size: .9rem;
     line-height: 1.8em;
     margin: 0 auto;
