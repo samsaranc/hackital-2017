@@ -71,7 +71,8 @@ fieldset {
     margin: 0 auto;
     margin-top: 3%;
     width: 24rem; }
-  fieldset .link {
+
+.link {
     border-bottom: 1.5px solid white;
     color: white;
     text-decoration: none; }
