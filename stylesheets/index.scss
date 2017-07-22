@@ -22,9 +22,9 @@ body {
 
         h2 {
           color: white;
-          font-family: "Fakt Pro", "Helvetica Neue", sans-serif;
-          font-weight: 300;
+          font-family: "Helvetica Neue", sans-serif;
           font-size: 3.2rem;
+          font-weight: 400;
           line-height: 1.25em;
           margin: 0 auto;
           margin-top: 14rem;
@@ -37,9 +37,9 @@ body {
 
       h6 {
         color: #999;
-        font-family: "Fakt Pro", "Helvetica Neue", sans-serif;
+        font-family: "Helvetica Neue", sans-serif;
         font-size: .8rem;
-        font-weight: 300;
+        font-weight: 400;
         margin-top: 18rem;
         margin-bottom: 5%;
       }
@@ -60,15 +60,16 @@ fieldset {
       margin-top: 40px;
       padding-top: 28px;
       padding-bottom: 28px;
-      border-top: 1px solid #2B2B2B;
-      border-bottom: 1px solid #2B2B2B;
-      border-left: 1px solid #2B2B2B;
-      border-right: 1px solid #2B2B2B;
-      border-color: #2B2B2B;
+      border-top: 1px solid #FFF;
+      border-bottom: 1px solid #FFF;
+      border-left: 1px solid #FFF;
+      border-right: 1px solid #FFF;
+      border-color: #FFF;
       font-size: 1.1rem;
+      font-family: "Helvetica Neue", sans-serif;
       width: 24rem;
 
-        &:focus{
+        &:focus {
           outline: 0;
           font-size: 1.2rem;
         }
@@ -76,9 +77,9 @@ fieldset {
 
     h5 {
       color: #BBB;
-      font-family: "Fakt Pro", "Helvetica Neue", sans-serif;
-      font-weight: 300;
+      font-family: "Helvetica Neue", sans-serif;
       font-size: .9rem;
+      font-weight: 400;
       line-height: 1.8em;
       margin: 0 auto;
       margin-top: 3%;
@@ -131,7 +132,7 @@ fieldset {
 @media only screen and (min-width: 320px) and (max-width: 900px) {
 
   h2 {
-    font-size: 1.8rem !important;
+    font-size: 1.6rem !important;
     width: 22rem !important;
   }
 
